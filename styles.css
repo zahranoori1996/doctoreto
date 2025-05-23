@@ -190,6 +190,85 @@ select {
   }
 }
 
+/* Hero Styles */
+.hero-section-pattern {
+    width: 100vw;
+    height: 450px;
+    background-image: url(./assets/images/bg-pattern.webp);
+    background-repeat: repeat;
+    background-color:  #0065b7be;
+   
+}
+.hero-section{
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 2rem;
+}
+.hero-title {
+    text-align: center;
+    color: #fff;
+    line-height: 2rem;
+}
+.hero-search {
+    display: flex;
+    width: 94%;
+    background-color: #fff;
+    border-radius: .6rem;
+    -webkit-border-radius: .6rem;
+    -moz-border-radius: .6rem;
+    -ms-border-radius: .6rem;
+    -o-border-radius: .6rem;
+}
+.hero-select-cities {
+    font-size: .9rem;
+    font-weight: 500;
+    gap: 5px;
+    color: #4e6eda;
+    cursor: pointer;
+    display: flex;
+    padding: .5rem;
+    background: #f1f1f1;
+    margin: .3rem;
+    border-radius: .3rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
+}
+.hero-search-doctor {
+    display: flex;
+}
+.hero-search-doctor img {
+    width: 30px;
+}
+.hero-search-doctor input {
+    outline: 0;
+    border: 0;
+}
+
+.hero-details {
+    display: flex;
+    color: #fff;
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+.hero-details h3{
+   
+    font-weight: lighter;
+    font-size: .8rem;
+  
+}
+.hero-success{
+    padding: 0 2rem;
+    border-left: 1px dotted #ccc;
+    border-right: 1px dotted #ccc;
+}
+
 /* --------------------- Media Queries ------------------------- */
 @media (min-width: 640px) {
 }

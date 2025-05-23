@@ -15,54 +15,92 @@
   <body>
     <!-- Header -->
     <header class="header">
-        <div class="container">
-          <div class="header-content">
-            <div class="logo">
-              <img class="logo-doctoreto" src="./assets/icons/doctoreto-logo.png" alt="logo Doctoreto"/>
-            </div>
-            <nav class="desktop-nav">
-              <ul>
-                <li><a href="#">نوبت‌دهی مطب </a></li>
-                <li><a href="#">مشاوره پزشکی آنلاین</a></li>
-                <li><a href="#">مشاوره پزشکی آنلاین</a></li>
-                <li><a href="#">دکترتو کلینیک</a></li>
-                <li><a href="#">مجله سلامت</a></li>
-              </ul>
-            </nav>
-            <div class="desktop-actions">
-              <a href="#" >ثبت نام پزشکان</a>
-              <a href="#" class="login-btn">
-                <img src="./assets/icons/user.svg" />
-                <span>ورود کاربران</span>
-              </a>
-            </div>
-            <div class="mobile-menu-btn">
-
-                <a href="#" id="menu-open">
-                    <img src="./assets/icons/menu.svg" alt="">
-                </a>
-                
-                <a href="#" id="menu-close" style="display: none;">
-                    <img src="./assets/icons/menu.svg" alt="">
-                </a>
-            
-            </div>
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <img
+              class="logo-doctoreto"
+              src="./assets/icons/doctoreto-logo.png"
+              alt="logo Doctoreto"
+            />
           </div>
-          <div class="mobile-menu" id="mobile-menu">
-            <nav>
-              <ul>
-                 <li><a href="#">نوبت‌دهی مطب </a></li>
-                <li><a href="#">مشاوره پزشکی آنلاین</a></li>
-                <li><a href="#">مشاوره پزشکی آنلاین</a></li>
-                <li><a href="#">دکترتو کلینیک</a></li>
-                <li><a href="#">مجله سلامت</a></li>
-              </ul>
-            </nav>
-          
+          <nav class="desktop-nav">
+            <ul>
+              <li><a href="#">نوبت‌دهی مطب </a></li>
+              <li><a href="#">مشاوره پزشکی آنلاین</a></li>
+              <li><a href="#">مشاوره پزشکی آنلاین</a></li>
+              <li><a href="#">دکترتو کلینیک</a></li>
+              <li><a href="#">مجله سلامت</a></li>
+            </ul>
+          </nav>
+          <div class="desktop-actions">
+            <a href="#">ثبت نام پزشکان</a>
+            <a href="#" class="login-btn">
+              <img src="./assets/icons/user.svg" />
+              <span>ورود کاربران</span>
+            </a>
+          </div>
+          <div class="mobile-menu-btn">
+            <a href="#" id="menu-open">
+              <img src="./assets/icons/menu.svg" alt="" />
+            </a>
+
+            <a href="#" id="menu-close" style="display: none">
+              <img src="./assets/icons/menu.svg" alt="" />
+            </a>
           </div>
         </div>
-      </header>
+        <div class="mobile-menu" id="mobile-menu">
+          <nav>
+            <ul>
+              <li><a href="#">نوبت‌دهی مطب </a></li>
+              <li><a href="#">مشاوره پزشکی آنلاین</a></li>
+              <li><a href="#">مشاوره پزشکی آنلاین</a></li>
+              <li><a href="#">دکترتو کلینیک</a></li>
+              <li><a href="#">مجله سلامت</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
     <!-- Hero Section -->
+
+ <div class="hero-section-pattern ">
+    <div class="hero-section container">
+        <div class="hero-title">
+            <h2>دکتـــرِتو</h2>
+            <h3>نوبت‌دهی اینترنتی و مشاوره آنلاین پزشکان ایران</h3>
+        </div>
+        <div class="hero-search">
+            <div class="hero-select-cities">
+                <img src="./assets/icons/loacation.svg" alt="">
+                <span>انتخاب شهر</span>
+            </div>
+            <div class="hero-search-doctor">
+                <img src="./assets/icons/search.svg" alt="">
+                <input type="text" placeholder="نام پزشک، تخصص، بیماری و ...">
+            </div>
+           
+        </div>
+
+        <div class="hero-details">
+            <div class="hero-doctor">
+                <h3>+60,000</h3>
+                <h3>پزشک</h3>
+            </div>
+            <div class="hero-success">
+                <h3>+20,000,000</h3>
+                <h3>نوبت موفق</h3>
+            </div>
+            <div class="hero-locations">
+                <h3>+1,300</h3>
+                <h3>شهر و روستا</h3>
+            </div>
+        </div>
+    </div>
+ </div>
+
+    <!-- cards -->
 
     <!-- The most visited specialties Section -->
 
@@ -87,7 +125,6 @@
     <!-- The newest doctors of your doctor -->
 
     <!-- Footer -->
-
 
     <script src="./main.js"></script>
   </body>
